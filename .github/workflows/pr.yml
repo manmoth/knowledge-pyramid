@@ -11,8 +11,8 @@ jobs:
     runs-on: ubuntu-latest
     steps:
     - uses: actions/checkout@v4
-    - name: enable corepack
-      run: enable corepack
+    - name: Enable Corepack
+      run: corepack enable
     - name: node
       uses: actions/setup-node@v4
       with:
